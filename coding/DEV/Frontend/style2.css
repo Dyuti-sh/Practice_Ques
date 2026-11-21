@@ -1,0 +1,52 @@
+/*#maintopic{
+    color: blue;
+}
+*{
+    text-align: center;
+}
+h1,h3,h5{
+    font-family: Georgia;
+}
+.a{
+    color: white;
+    background-color: cornflowerblue;
+}
+div button{
+    background-color: purple;
+    color: azure;
+}
+button:hover{
+    color: brown;
+    background-color: yellow;
+}
+p:nth-of-type(2n+1){
+    color: yellow;
+}
+input[type="checkbox"]:checked + label{/*or simply #yes:checked + label se bhi kar skte the
+    color: darkgreen;
+    font-weight: bold;
+}
+h1::first-letter{
+    color: rgb(255,0,0);
+}*/
+
+#container{
+    height: 400px;
+    width: 400px;
+    border: 3px solid rgba(6, 162, 173, 0.966);
+    border-radius: 5%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.alpha{
+    height: 100px;
+    width: 100px;
+    border: 3px solid black;
+    border-radius: 10%;
+    background-color: darkgray;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+}
